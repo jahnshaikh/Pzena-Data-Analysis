@@ -107,7 +107,7 @@ namespace Pzena_Data_Analysis
         private static void Pause(int Input)
         {
             //Suspend thread based on input
-            System.Threading.Thread.Sleep(Input * 1000);
+            System.Threading.Thread.Sleep(Input * 1000);//
         }
 
     }
